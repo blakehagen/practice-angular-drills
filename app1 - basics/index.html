@@ -4,6 +4,18 @@
     <div ng-repeat="banana in bananaInfo">
         {{banana}}
     </div>
+    <p></p>
+    <p></p>
+    <div>
+        <input type="text" placeholder="type something" ng-model="someText">
+        </input>
+    </div>
+    <p></p>
+    <div>
+        <p>Here is the text you typed: </p>
+        <p>{{someText}}</p>
+        <button ng-click="submit()">Submit!</button>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
     <script src="app.js"></script>

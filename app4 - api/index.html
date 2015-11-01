@@ -1,9 +1,33 @@
-<html ng-app="apiApp">
-	<body>
-		
-				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
-		<script src="app.js"></script>
-		<script src="controller.js"></script>
-		<script src="service.js"></script>
-	</body>
+<html ng-app="app4">
+
+<body ng-controller="mainCtrl">
+
+    <h1>Star Wars Planets</h1>
+    <div ng-repeat="planet in planets">
+        <p> Planet Name: {{planet.PlanetName}}</p>
+        <p> Climate: {{planet.Climate}}</p>
+        <p> Terrain: {{planet.Terrain}}</p>
+        <div>
+            <p>-- -- -- -- -- -- -- -- -- -- -- -- --</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="service.js"></script>
+</body>
+
 </html>

@@ -1,10 +1,19 @@
-<html>
+<html ng-app="pokemonApp">
 
-<body>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
+<body ng-controller="MainCtrl">
 
-
-
+    <h1>List of All Pokemon</h1>
+    <div>
+        <input class="pokemon input" type="text" placeholder="Search Pokemon" ng-model="pokemonList">
+        </input>
+    </div>
+    <div class="pokemon" ng-repeat="name in pokemon | filter: pokemonList">
+        {{name.name}}
+    </div>
 
 
 

@@ -1,0 +1,20 @@
+h1 {
+    font-family: "Myriad Set Pro", sans-serif;
+    font-size: 44px;
+    margin: 50px 0 30px 50px;
+}
+
+.pokemon {
+    font-family: "Myriad Set Pro", sans-serif;
+    font-size: 28px;
+    margin: 10px 0 10px 50px;
+    padding-left: 10px;
+    border: 1px solid darkslateblue;
+    width: 300px;
+}
+
+.input {
+    border-radius: 50px;
+    height: 40px;
+
+}
